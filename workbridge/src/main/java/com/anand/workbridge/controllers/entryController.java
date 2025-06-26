@@ -11,4 +11,9 @@ public class entryController {
 
         return "Saurav testing";
     }
+
+    @GetMapping("/index")
+    public String getHomePage(){
+        return "<h1>This is my Home Page</h1>";
+    }
 }
